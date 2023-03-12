@@ -7,7 +7,7 @@ export const Header: React.FunctionComponent = () => {
     <header className="py-[32px] px-[160px]" data-testid="component-header">
       <div className="container flex items-center justify-between">
         <img src={LogoCoffee} alt="Coffee Delivery" />
-        <div className="flex items-center">
+        <div className="flex items-center gap-[12px]">
           <Location />
           <button>cart</button>
         </div>
