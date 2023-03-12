@@ -41,6 +41,16 @@ module.exports = {
         1: '130%',
         2: '160%',
       },
+      borderRadius: {
+        sm: '4px',
+        md: '6px',
+        lg: '64px',
+      },
+      fontWeight: {
+        normal: '400',
+        bold: '700',
+        extra: '800',
+      },
     },
   },
   plugins: [],
