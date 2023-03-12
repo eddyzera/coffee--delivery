@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678651199356" clover="3.2.0">
-  <project timestamp="1678651199356" name="All files">
-    <metrics statements="16" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="21" coveredelements="16" complexity="0" loc="16" ncloc="16" packages="5" files="6" classes="6"/>
+<coverage generated="1678654443341" clover="3.2.0">
+  <project timestamp="1678654443341" name="All files">
+    <metrics statements="20" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="26" coveredelements="21" complexity="0" loc="20" ncloc="20" packages="6" files="7" classes="7"/>
     <package name="src">
       <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/App.tsx">
@@ -27,12 +27,22 @@
       </file>
     </package>
     <package name="src.components.Header">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Header.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Header/Header.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Location">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Location.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Location/Location.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.pages">
