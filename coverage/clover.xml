@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1678643158761" clover="3.2.0">
+  <project timestamp="1678643158761" name="All files">
+    <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="7" coveredelements="3" complexity="0" loc="6" ncloc="6" packages="1" files="2" classes="2"/>
+    <file name="App.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/App.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+    </file>
+    <file name="main.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/main.tsx">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="5" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
