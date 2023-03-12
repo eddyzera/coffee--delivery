@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678654443341" clover="3.2.0">
-  <project timestamp="1678654443341" name="All files">
-    <metrics statements="20" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="26" coveredelements="21" complexity="0" loc="20" ncloc="20" packages="6" files="7" classes="7"/>
+<coverage generated="1678655314708" clover="3.2.0">
+  <project timestamp="1678655314708" name="All files">
+    <metrics statements="24" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="31" coveredelements="26" complexity="0" loc="24" ncloc="24" packages="7" files="8" classes="8"/>
     <package name="src">
       <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/App.tsx">
@@ -26,14 +26,24 @@
         <line num="1" count="2" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.Cart">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Cart.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Cart/Cart.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.Header">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Header.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Header/Header.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Location">

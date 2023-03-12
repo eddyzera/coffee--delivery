@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoCoffee from '../../assets/svg/logo-coffee.svg'
 import { Location } from '../Location/Location'
+import { Cart } from '../Cart/Cart'
 
 export const Header: React.FunctionComponent = () => {
   return (
@@ -9,7 +10,7 @@ export const Header: React.FunctionComponent = () => {
         <img src={LogoCoffee} alt="Coffee Delivery" />
         <div className="flex items-center gap-[12px]">
           <Location />
-          <button>cart</button>
+          <Cart />
         </div>
       </div>
     </header>
