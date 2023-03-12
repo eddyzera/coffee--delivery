@@ -37,6 +37,10 @@ module.exports = {
         8: '2rem',
         9: '3rem',
       },
+      lineHeight: {
+        1: '130%',
+        2: '160%',
+      },
     },
   },
   plugins: [],
