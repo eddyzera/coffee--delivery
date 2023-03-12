@@ -1,9 +1,6 @@
 import React from 'react'
+import { HomePage } from './pages'
 
 export const App: React.FunctionComponent = () => {
-  return (
-    <div>
-      <h1>hello</h1>
-    </div>
-  )
+  return <HomePage />
 }
