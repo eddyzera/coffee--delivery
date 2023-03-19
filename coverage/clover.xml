@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1679242208982" clover="3.2.0">
-  <project timestamp="1679242208982" name="All files">
-    <metrics statements="37" coveredstatements="31" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11" elements="50" coveredelements="44" complexity="0" loc="37" ncloc="37" packages="9" files="10" classes="10"/>
+<coverage generated="1679265657635" clover="3.2.0">
+  <project timestamp="1679265657635" name="All files">
+    <metrics statements="40" coveredstatements="34" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12" elements="54" coveredelements="48" complexity="0" loc="40" ncloc="40" packages="10" files="11" classes="11"/>
     <package name="src">
       <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/App.tsx">
@@ -44,22 +44,6 @@
         <line num="20" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="src.components.ComponentPages.Homepage">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/ComponentPages/Homepage/index.tsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.components.ComponentPages.Homepage.SectionBanner">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="SectionBanner.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/ComponentPages/Homepage/SectionBanner/SectionBanner.tsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-      </file>
-    </package>
     <package name="src.components.Header">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Header.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Header/Header.tsx">
@@ -79,6 +63,30 @@
         <line num="5" count="3" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.Step.Homepage">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Step/Homepage/index.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Step.Homepage.CoffeeList">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CoffeeList.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Step/Homepage/CoffeeList/CoffeeList.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Step.Homepage.SectionBanner">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="SectionBanner.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/components/Step/Homepage/SectionBanner/SectionBanner.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+    </package>
     <package name="src.pages">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/pages/index.tsx">
@@ -87,13 +95,14 @@
       </file>
     </package>
     <package name="src.pages.HomePage">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="HomePage.tsx" path="/Users/edgarsilva/projetos/coffee--delivery/src/pages/HomePage/HomePage.tsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
   </project>
