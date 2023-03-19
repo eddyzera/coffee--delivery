@@ -1,5 +1,5 @@
 import React from 'react'
-import CoffeBanner from '../../assets/img/banner-coffe.png'
+import CoffeBanner from '../../../../assets/img/banner-coffe.png'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 
 export const SectionBanner: React.FunctionComponent = () => {
@@ -19,19 +19,32 @@ export const SectionBanner: React.FunctionComponent = () => {
           </p>
           <ul className="grid grid-cols-2 gap-x-[20px] gap-y-[40px]">
             <li className="item-list-higlight">
-              <ShoppingCart size={16} weight="fill" />
-              Compra simples e segura
+              <p className="p-[8px] bg-yellow-500 rounded-lg">
+                <ShoppingCart
+                  size={16}
+                  weight="fill"
+                  className="text-white-50"
+                />
+              </p>
+              <p className="text-4">Compra simples e segura</p>
             </li>
             <li className="item-list-higlight">
-              <Package size={16} weight="fill" />
-              Embalagem mantém o café intacto
+              <p className="p-[8px] bg-brown-500 rounded-lg">
+                <Package size={16} weight="fill" className="text-white-50" />
+              </p>
+              <p className="text-4">Embalagem mantém o café intacto</p>
             </li>
             <li className="item-list-higlight">
-              <Timer size={16} weight="fill" />
-              Entrega rápida e rastreada
+              <p className="p-[8px] bg-yellow-100 rounded-lg">
+                <Timer size={16} weight="fill" className="text-white-50" />
+              </p>
+              <p className="text-4">Entrega rápida e rastreada</p>
             </li>
             <li className="item-list-higlight">
-              <Coffee size={16} weight="fill" />O café chega fresquinho até você
+              <p className="p-[8px] bg-purple-100 rounded-lg">
+                <Coffee size={16} weight="fill" className="text-white-50" />
+              </p>
+              <p className="text-4">O café chega fresquinho até você</p>
             </li>
           </ul>
         </div>

@@ -15,14 +15,3 @@
     @apply leading-1;
   }
 }
-
-@layer utilities {
-  .item-list-higlight {
-    @apply text-brown-100;
-    @apply font-normal;
-    @apply leading-1;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-}
