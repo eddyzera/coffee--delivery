@@ -22,7 +22,7 @@ module.exports = {
         'white-200': '#FAFAFA',
       },
       fontFamily: {
-        baloo: ['Baloo 2', 'cursive'],
+        baloo: ['Baloo\\ 2', 'cursive'],
         roboto: ['Roboto', 'sans-serif'],
       },
 
