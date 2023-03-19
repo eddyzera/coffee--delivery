@@ -4,7 +4,7 @@ import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 export const SectionBanner: React.FunctionComponent = () => {
   return (
     <section
-      className="pt-[94px] pb-[108px] px-[160px]"
+      className="pt-[94px] pb-[108px] px-[160px] bg-[url('public/assets/img/bg-opacity.png')]"
       data-testid="section-banner-component"
     >
       <div className="container flex items-center justify-between gap-[56px]">
