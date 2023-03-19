@@ -1,12 +1,11 @@
 import React from 'react'
-import CoffeBanner from '../../../../assets/img/banner-coffe.png'
 import { Coffee, Package, ShoppingCart, Timer } from 'phosphor-react'
 
 export const SectionBanner: React.FunctionComponent = () => {
   return (
     <section
       className="pt-[94px] pb-[108px] px-[160px]"
-      data-testid="section-banner"
+      data-testid="section-banner-component"
     >
       <div className="container flex items-center justify-between gap-[56px]">
         <div className="max-w-[588px]">
@@ -48,7 +47,10 @@ export const SectionBanner: React.FunctionComponent = () => {
             </li>
           </ul>
         </div>
-        <img src={CoffeBanner} alt="Banner Coffe Delivery" />
+        <img
+          src="public/assets/img/banner-coffe.png"
+          alt="Banner Coffe Delivery"
+        />
       </div>
     </section>
   )
