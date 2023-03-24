@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "server": "npx json-server server.json -p 3333 -w -d 500"
   },
   "dependencies": {
     "@rocketseat/eslint-config": "^1.2.0",
